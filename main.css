@@ -4,6 +4,9 @@ html, body {
     height: 100%;
     width: 100%;
     text-align: center;
+    background-color:	rgb(7, 7, 48);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 .navbar {
@@ -20,4 +23,3 @@ html, body {
     width: 100%;
     max-width: 300px;
 }
-
