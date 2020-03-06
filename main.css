@@ -7,7 +7,7 @@ html, body {
     background-color:	rgb(7, 7, 48);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .name {
@@ -19,11 +19,12 @@ html, body {
     width: 100%; 
     max-width: 250px; 
     border-radius: 50%;
-    /* display: inline-block; */
+    display: inline-block;
     /* text-align: center;  */
     /* align-items: center; */
-    margin-top: -50px;
-    margin-left: -100px;
+    /* margin-top: -50px;
+    margin-left: -100px; */
+    left : 50%;
    
 }
 .research {
@@ -37,7 +38,7 @@ html, body {
     vertical-align: middle;
     position: relative;
     bottom: 400px;
-    right: 60px;
+    left: 40px;
     
 }
 .candles {
@@ -51,7 +52,7 @@ html, body {
     vertical-align: middle;
     position: relative;
     bottom: 250px;
-    right: 230px;
+    right: 100px;
 }
 .Performaces{
     background: lightblue;
@@ -89,5 +90,5 @@ html, body {
     vertical-align: middle;
     position: relative;
     bottom: 320px;
-    left: 50%; 
+    left: 170%; 
 }
