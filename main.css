@@ -17,7 +17,7 @@ html, body {
 
 .profile-img { 
     width: 100%; 
-    max-width: 250px; 
+    max-width: 200px; 
     border-radius: 50%;
     display: inline-block;
     /* text-align: center;  */
@@ -37,8 +37,8 @@ html, body {
     text-align: center;
     vertical-align: middle;
     position: relative;
-    bottom: 400px;
-    left: 40px;
+    bottom: 300px;
+    left: 60px;
     
 }
 .candles {
@@ -51,8 +51,8 @@ html, body {
     text-align: center;
     vertical-align: middle;
     position: relative;
-    bottom: 250px;
-    right: 100px;
+    bottom: 150px;
+    right: 25px;
 }
 .Performaces{
     background: lightblue;
