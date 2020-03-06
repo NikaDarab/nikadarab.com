@@ -89,6 +89,6 @@ html, body {
     display: table-cell;
     vertical-align: middle;
     position: relative;
-    bottom: 320px;
-    left: 170%; 
+    bottom: 250px;
+    left: 150%; 
 }
