@@ -76,5 +76,17 @@ html, body {
     position: relative;
     bottom: 250px;
     left: 130px;      
-
+}
+.about {
+    background: lightblue;
+    color: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 350px;
+    left: 130px;    
 }
