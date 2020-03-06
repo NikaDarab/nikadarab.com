@@ -16,7 +16,7 @@ html, body {
 
 .profile-img { 
     width: 100%; 
-    max-width: 300px;
+    max-width: 250px;
     border-radius: 50%;
     display: inline-block;
     text-align: center; 
