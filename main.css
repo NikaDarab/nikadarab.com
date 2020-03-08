@@ -5,8 +5,17 @@ html, body {
     width: 100%;
     text-align: center;
     background-color:	rgb(7, 7, 48);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     color: white;
+}
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .navbar {
@@ -21,5 +30,12 @@ html, body {
 
 .profile-img { 
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.footer-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
 }
