@@ -1,34 +1,204 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=hh1, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nika Darab</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="https://kit.fontawesome.com/c6aa5a5afb.js" crossorigin="anonymous"></script>
-      
-</head>
-<body>
-    <div class="container">
-        <br/>
-        <div class="navbar">
-            <h1 class="name">Nika Darab</h1>
+  <head>
+    <title>This is Nika</title>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="//normalize-css.googlecode.com/svn/trunk/normalize.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="logo">Nika Darab</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+
+          <li><a href="#about-me">About</a></li>
+
+          <li><a href="#services">Services</a></li>
+
+          <li><a href="#projects">projects</a></li>
+
+          <li><a href="#contact-me">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div>
+          <h2 id="home">Home</h2>
+
+          <hr />
         </div>
-        <br/>
-        <img src="./assets/profile.jpg" alt="Nika Darab's photo" class="profile-img"/>
-        <p>Engineer · Entrepreneur · Performer· Poet</p>
+
+        <div>
+          <p>
+            I am a Software Engineer located in
+
+            <a
+              target="_blank"
+              href="https://en.wikipedia.org/wiki/Austin,_Texas"
+              >Austin TX</a
+            >
+          </p>
+
+          <p>
+            I am passionate about web design,all things open source and solving
+            problems in my community while collaborating with other ambitious
+            developers.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h2 id="about-me">About me</h2>
+
+          <hr />
+        </div>
+
+        <div>
+          <p>
+            As an Engineer, what drives me is how I can collaborate with other
+            developers, help our communities and solve problems.
+          </p>
+
+          <p>
+            I am also an artist, I like to write poetry, comedy skits, creative
+            expressions and experimental performances. The goal is to leave a
+            dent, touch a soul and elevate.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h2 id="services">Services</h2>
+
+          <hr />
+        </div>
+
+        <div>
+          <ul class="services">
+            <li>Full Stack Web Developement</li>
+
+            <li>Creative Consultant</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h2 id="projects">Projects</h2>
+
+          <hr />
+        </div>
+
+        <div>
+          <p class="services">Title: Girlcode</p>
+
+          <p class="services">
+            A full-stack application, built in React.js, Node.js, Express and
+            postgres
+          </p>
+
+          <a target="_blank" href="https://girlcode-client.vercel.app/"
+            >Click To See</a
+          >
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h2 id="contact-me">Contact Me</h2>
+
+          <hr />
+        </div>
+
+        <div>
+          <p>Send me a message</p>
+
+          <form
+            action="https://formspree.io/f/xbjpkldn"
+            method="POST"
+            method="POST"
+          >
+            <label for="user-name">Name:</label>
+
+            <input type="text" id="user-name" name="name" />
+
+            <label for="user-email">Email:</label>
+
+            <input type="email" id="user-email" name="email" required />
+
+            <label for="user-message">Message:</label>
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <button target="_blank" class="submit" type="submit">Send</button>
+          </form>
+        </div>
+
+        <!--Footer-->
+
         <footer>
-            <a href="https://twitter.com/NeekaDarab" target="_blank" class="footer-icon"> 
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://github.com/NikaDarab" target="_blank" class="footer-icon">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://linkedin.com/in/nika-darab-9a77738a/" target="_blank" class="footer-icon">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
+          <ul class="icons">
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/nikadarab/"
+                class="icon brands fa fa-linkedin"
+              ></a
+              >Linkedin
+            </li>
+
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/NikaDarab"
+                class="icon brands fa fa-github"
+              ></a
+              >Github
+            </li>
+
+            <li>
+              <a
+                target="_blank"
+                href="https://twitter.com/NeekaDarab"
+                class="icon brands fa fa-twitter"
+              ></a
+              >Twitter
+            </li>
+          </ul>
         </footer>
-    </div>
-</body>
+      </section>
+
+      <!--<Footer -->
+
+      <footer id="footer">
+        <ul class="copyright">
+          <li>&copy; Nika Darab</li>
+        </ul>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
