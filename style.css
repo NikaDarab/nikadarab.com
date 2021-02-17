@@ -35,13 +35,13 @@ body {
 }
 
 header {
-  display: flex;
+  /* display: flex; */
 
   flex-direction: column;
 
   background: white;
 
-  margin: 2.5em auto 1em auto;
+  /* margin: 2.5em auto 1em auto; */
 
   padding: 1em 3em;
 
@@ -51,7 +51,10 @@ header {
 
   width: 100%;
 
-  /* max-width: 300px; */
+  max-width: 500px;
+  padding: 1em 3em;
+
+  margin: auto 0 1em 0;
 }
 
 .logo {
@@ -61,7 +64,21 @@ header {
 
   padding-top: 1em edm;
 }
+.header-main {
+  display: flex;
 
+  flex-direction: column;
+
+  padding: 20px 0;
+
+  width: 100%;
+
+  max-width: 400px;
+
+  margin: auto;
+
+  justify-content: center;
+}
 main {
   display: flex;
 
