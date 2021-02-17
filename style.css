@@ -32,18 +32,18 @@ body {
   line-height: 2;
 
   letter-spacing: 0.2em;
+
+  margin: 0 auto;
 }
 
 header {
-  /* display: flex; */
+  /* text-align: center; */
 
-  flex-direction: column;
+  /* padding: 1em 3em; */
 
-  background: white;
+  /* margin: 0 auto; */
 
-  /* margin: 2.5em auto 1em auto; */
-
-  padding: 1em 3em;
+  /* background: #ffffff; */
 
   cursor: default;
 
@@ -52,9 +52,10 @@ header {
   width: 100%;
 
   max-width: 500px;
-  padding: 1em 3em;
 
-  margin: auto 0 1em 0;
+  flex-direction: column;
+
+  justify-content: center;
 }
 
 .logo {
@@ -64,6 +65,12 @@ header {
 
   padding-top: 1em edm;
 }
+
+p {
+  text-align: left;
+}
+
+main,
 .header-main {
   display: flex;
 
@@ -78,24 +85,13 @@ header {
   margin: auto;
 
   justify-content: center;
-}
-main {
-  display: flex;
 
-  flex-direction: column;
-
-  padding: 20px 0;
-
-  width: 100%;
-
-  max-width: 400px;
-
-  margin: auto;
-
-  justify-content: center;
+  text-align: center;
 }
 
 section {
+  text-align: center;
+
   padding: 1em 3em;
 
   margin: auto 0 1em 0;
@@ -153,8 +149,6 @@ header nav ul li:last-child a {
 @media all and (min-width: 600px) {
   header {
     justify-content: space-between;
-
-    padding: 0 30px;
 
     display: flex;
   }
