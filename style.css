@@ -67,9 +67,8 @@ img {
 }
 
 .logo {
-  font-size: 28px;
-  margin: auto;
-  padding-top: 1em;
+  font-size: 20px;
+  text-align: center;
 }
 
 p {
