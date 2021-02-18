@@ -44,7 +44,7 @@ a {
   font-size: 10pt;
   text-decoration: none;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 a:link,
@@ -79,11 +79,6 @@ p {
   max-width: 600px;
   margin: 0 auto;
 }
-
-/* main {
-  display: block;
-  margin: 0 auto;
-} */
 
 section {
   margin: 0 auto;
