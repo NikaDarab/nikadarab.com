@@ -4,37 +4,29 @@
 
 html {
   box-sizing: border-box;
-
   height: 100%;
-
   margin: 0;
-
   padding: 0;
-}
-
--,
-- :before,
-- :after {
-  box-sizing: inherit;
 }
 
 body {
   background-image: linear-gradient(
     90deg,
-    rgb(233, 189, 170),
-    rgb(153, 225, 233),
+    rgb(244, 206, 190),
+    rgb(165, 223, 230),
     rgb(220, 211, 193)
   );
-
   color: #414f57;
-
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-
   line-height: 2;
-
   letter-spacing: 0.2em;
-
   margin: 0 auto;
+}
+header {
+  background-color: white;
+  margin: 0 auto;
+  display: block;
+  padding: 0 30%;
 }
 
 img {
@@ -45,13 +37,14 @@ img {
   height: 30%;
   width: 30%;
 }
-.profile-picture {
-}
+/* .nav-bar {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+} */
 .logo {
   font-size: 28px;
-
   margin: auto;
-
   padding-top: 1em;
 }
 
@@ -61,33 +54,32 @@ p {
 
 main {
   display: block;
-
   margin: 0 auto;
 }
 
 section {
   text-align: center;
-
   margin: 0 auto;
-
   cursor: default;
-
   opacity: 0.95;
-
   width: 100%;
-
   max-width: 500px;
 }
 
 header nav {
   display: inline-block;
+  width: 100%;
+  height: 100%;
+  /* margin: 0 auto; */
+}
+
+nav > li {
+  display: inline-block;
 }
 
 header nav ul {
   display: flex;
-
-  padding-left: 0;
-
+  margin: 0;
   list-style: none;
 }
 
@@ -97,10 +89,9 @@ a {
 
 header nav ul li a {
   font-size: 10pt;
-
   text-decoration: none;
-
-  padding: 0 20px 0 0;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 header nav ul li a:link,
@@ -114,34 +105,6 @@ header nav ul li a:hover {
 
 header nav ul li:last-child a {
   margin-right: 0;
-}
-
-@media all and (min-width: 600px) {
-  /* header {
-    justify-content: space-between;
-
-    display: flex;
-  } */
-
-  header h1 {
-    margin: 14px 0;
-
-    padding-top: 0;
-  }
-
-  header nav {
-    margin-top: 8px;
-  }
-
-  header nav ul li a {
-    padding: 0 50px 0 0;
-  }
-
-  main {
-    /* width: 100%;
-
-    display: flex; */
-  }
 }
 
 footer ul {
@@ -305,4 +268,7 @@ form textarea {
   align-items: center;
 
   justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
 }
