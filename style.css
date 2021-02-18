@@ -23,7 +23,7 @@ body {
 
 header {
   background-color: white;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 nav {
@@ -60,7 +60,7 @@ a:hover {
 img {
   display: block;
   margin: 0 auto;
-  padding: 8% 0 0 0;
+  padding: 18% 0;
   border-radius: 50%;
   height: 50%;
   width: 50%;
@@ -86,6 +86,7 @@ section {
   opacity: 0.95;
   width: 100%;
   max-width: 500px;
+  text-align: center;
 }
 
 footer ul {
