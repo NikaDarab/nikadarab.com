@@ -25,10 +25,40 @@ body {
 header {
   background-color: white;
   margin: 0 auto;
-  display: block;
-  padding: 0 30%;
+  display: flex;
+  padding: 0 3px;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+a {
+  font-size: 10pt;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
+a:link,
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: rgb(228, 135, 151);
+}
+
+li:last-child a {
+  margin-right: 0;
+}
 img {
   display: block;
   margin: 0 auto;
@@ -37,11 +67,7 @@ img {
   height: 30%;
   width: 30%;
 }
-/* .nav-bar {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-} */
+
 .logo {
   font-size: 28px;
   margin: auto;
@@ -64,47 +90,6 @@ section {
   opacity: 0.95;
   width: 100%;
   max-width: 500px;
-}
-
-header nav {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  /* margin: 0 auto; */
-}
-
-nav > li {
-  display: inline-block;
-}
-
-header nav ul {
-  display: flex;
-  margin: 0;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-header nav ul li a {
-  font-size: 10pt;
-  text-decoration: none;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
-header nav ul li a:link,
-a:visited {
-  color: gray;
-}
-
-header nav ul li a:hover {
-  color: rgb(228, 135, 151);
-}
-
-header nav ul li:last-child a {
-  margin-right: 0;
 }
 
 footer ul {
