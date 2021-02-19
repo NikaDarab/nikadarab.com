@@ -11,10 +11,11 @@ body {
   box-sizing: border-box;
   background-image: linear-gradient(
     90deg,
-    rgb(244, 206, 190),
-    rgb(165, 223, 230),
+    rgb(245, 229, 223),
+    rgb(188, 209, 211),
     rgb(220, 211, 193)
   );
+  background-color: white;
   color: #414f57;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   line-height: 2;
@@ -94,7 +95,7 @@ section {
   width: 100%;
   max-width: 500px;
   text-align: center;
-  padding: 0 10px;
+  padding: 0;
 }
 .project-title {
   font-size: 15pt;
@@ -122,26 +123,16 @@ footer ul.icons li {
 
 footer ul.icons li a {
   position: relative;
-
   display: block;
-
   width: 3.75em;
-
   height: 3.75em;
-
-  border-radius: 100%;
-
-  border: solid 1px #c8cccf;
-
+  /* border-radius: 100%; */
+  /* border: solid 1px #c8cccf; */
   line-height: 3.75em;
-
-  overflow: hidden;
-
-  text-align: center;
-
-  text-indent: 3.75em;
-
-  white-space: nowrap;
+  /* overflow: hidden; */
+  /* text-align: center; */
+  /* text-indent: 3.75em; */
+  /* white-space: nowrap; */
 }
 
 footer ul.icons li a:before {
@@ -222,7 +213,8 @@ footer ul.icons li a:hover {
 /* Wrapper */
 
 form {
-  padding-right: 6px;
+  margin: 0;
+  padding: 0;
 }
 
 form input,
@@ -236,24 +228,22 @@ form textarea {
   height: 160px;
 }
 
-.submit {
-  border-radius: 50%;
-
+/* .submit {
+  /* border-radius: 50%; */
+/* background-color: transparent;
   width: 60px;
-
   height: 60px;
-
   margin: auto;
-
-  background-color: black;
-
-  color: white;
-
+  color: black;
   display: flex;
-
   align-items: center;
-
   justify-content: center;
+  outline: none;
+} */
+*/ button {
+  outline: none;
+  overflow: visible;
+  display: block;
 }
 
 @media only screen and (max-width: 600px) {
