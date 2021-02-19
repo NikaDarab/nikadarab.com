@@ -67,6 +67,7 @@ a:hover {
 }
 
 img.girlcode-img {
+  margin: 0 auto;
   height: auto;
   width: 300px;
 }
