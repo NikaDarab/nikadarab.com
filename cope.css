@@ -218,7 +218,8 @@ ul.services {
 /* Wrapper */
 
 form {
-  padding-right: 6px;
+  padding-right: 0 106px;
+  background-color: red;
 }
 
 form input,
