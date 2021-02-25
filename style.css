@@ -247,9 +247,6 @@ form textarea {
 }
 
 @media only screen and (max-width: 600px) {
-  section {
-    padding: 0 50px;
-  }
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   select,
