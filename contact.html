@@ -59,7 +59,7 @@
           <div class="form">
             <p>Send me a message</p>
 
-            <form action="https://formspree.io/f/xbjpkldn" method="POST">
+<!--             <form action="https://formspree.io/f/xbjpkldn" method="POST">
               <label for="user-name">Name:</label>
               <input type="text" id="user-name" name="name" />
               <label for="user-email">Email:</label>
@@ -67,7 +67,24 @@
               <label for="user-message">Message:</label>
               <textarea name="" id="" cols="30" rows="10"></textarea>
               <button target="_blank" type="submit">Send</button>
-            </form>
+            </form> -->
+            <form
+  action="https://formspree.io/f/xbjpkldn"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+            
+            
           </div>
 
           <!--Footer-->
