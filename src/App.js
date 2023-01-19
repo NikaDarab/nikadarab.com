@@ -13,14 +13,14 @@ function App() {
   const [expandProjects, setExpandProjects] = useState(false);
 
   const [content, setContent] = useState(
-    <div className="flex flex-col not-fancy-font responsive-text w-full capitalize">
+    <div className="flex flex-col not-fancy-font responsive-text w-full">
       <h5 className="text-hot-pink mb-5">HOME</h5>
       <div className="line-1">Hi, I'm Nika!</div>
       <div className="line-2">
-        a software engineer and an artist based in Dallas.
+        A software engineer and an artist based in Dallas.
       </div>
       <div className="line-3">
-        let's create, collaborate, and connect!
+        Let's create, collaborate, and connect!
       </div>
     </div>,
   );

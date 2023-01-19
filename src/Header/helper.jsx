@@ -17,11 +17,11 @@ export const tabControl = (
       isAbout: false,
       isProjects: false,
       content: (
-        <div className="flex flex-col not-fancy-font responsive-text capitalize">
+        <div className="flex flex-col not-fancy-font responsive-text">
           <div className="text-hot-pink mb-5">HOME</div>
           <div className="line-1">Hi, I'm Nika!</div>
           <div className="line-2 capitalize">
-            a software engineer and an artist based in Dallas.
+            A software engineer and an artist based in Dallas.
           </div>
           <div className="line-3">let's create, collaborate, and connect!</div>
         </div>
@@ -47,7 +47,7 @@ export const tabControl = (
             <div className="line-3">
               In my free time, I like to perform, write and paint. After several
               years of being active in the comedy, writing and poetry scene I
-              finally found my niche in story telling. I perofrm true stories of
+              finally found my niche in story telling. I perform true stories of
               my life at local theaters and venues in the Dallas area.
             </div>
 
