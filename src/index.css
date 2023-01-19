@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dark-mode {
+  background-color: #2C2D2C;
+  color: #F1F1F1;
+}
+
+#logo-bar {
+  background-color: #717371;
+  color: #F1F1F1;
+}
+
+
+.light-mode {
+  background-color: #adabab;
+  color: #2C2D2C;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fancy-font {
+  font-family: studiofeixen Arial Helvetica sans-serif;
+}
+
+.not-fancy-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 600px) {
+  .text-sm {
+    font-size: 12px;
+    line-height: 25px;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .text-sm {
+    font-size: 28px;
+    line-height: 40px;
+    max-width: 85%;
+  }
+}
+
+.left-aligned {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.menu-option1 {
+  animation: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+
+.menu-option2 {
+  animation: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+
+
+.mobile-nav {
+
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+}
+
+
+
+@media screen and (min-width: 600px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .mobile-landing {
+    display: none;
+  }
+
+  .bottom-adjuster {
+    bottom: 10px
+  }
+
+  .responsive-text {
+    font-size: 35px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .navbar_fullsize {
+    display: none;
+  }
+
+  .bottom-adjuster {
+    bottom: 80px
+  }
+
+  .responsive-text {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+
+.line-1 {
+  animation: fadeInLeft;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.line-2 {
+  animation: fadeInLeft;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+.line-3 {
+  animation: fadeInLeft;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+
+.line-4 {
+  animation: fadeInLeft;
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+}
+
+.line-5 {
+  animation: fadeInLeft;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+}
+
+.line-6 {
+  animation: fadeInLeft;
+  animation-duration: 3s;
+  animation-delay: 6s;
+  animation-fill-mode: both;
+}
+
+.line-7 {
+  animation: fadeInLeft;
+  animation-duration: 3s;
+  animation-delay: 7s;
+  animation-fill-mode: both;
+}
+
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
