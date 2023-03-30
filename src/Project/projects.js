@@ -30,4 +30,18 @@ export const PROJECTS = [
     image: "/italingo.png",
     alt: "italingo landing page image",
   },
+  {
+    name: "Cinema Scope",
+    description:
+      "Cinema Scope is a movie database app  that allows users to search for movies. This was a fun project to learn more about the movie database API and how to use it.",
+    techStack: "React and Netlify",
+    github: "https://github.com/NikaDarab/CinemaScope",
+    live: "https://cinemascope.netlify.app/",
+    image: "/cinema-scope.png",
+    alt: "cinema-scope landing page image",
+  },
+
+
+
+
 ];
